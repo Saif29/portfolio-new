@@ -1,31 +1,31 @@
 import emoji from "react-easy-emoji";
 
 export const greetings = {
-  name: "Brendan Glancy",
+  name: "Saif Ur Rehman",
   title: "Welcome.",
   description:
-    "I am Student / Software Developer, learning Full Stack Web Development and Cyber Security. I have experience building Applications with Vanilla JavaScript, React,  Vue,  Node,  Java,  Spring Boot, Python,  Django and some other cool libraries and frameworks.",
+    "I am Software Developer, working as Front End Web Developer. I have experience building Applications with React,  Next,  Node and some other cool libraries and frameworks.",
   resumeLink: "https://brendanglancy.github.io/Resume/",
 };
 
 export const openSource = {
-  githubUserName: "brendanglancy",
+  githubUserName: "saifurrehman29",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-  url: "https://www.ovsknife.com/home",
-  instagram: "https://www.instagram.com/brendanglance/",
-  github: "https://github.com/brendanglancy",
-  linkedin: "https://www.linkedin.com/in/brendan-glancy/",
-  discord: "https://www.hackerrank.com/Bglance68",
-  blog: "https://brendanglancy.github.io/",
+  // url: "https://www.ovsknife.com/home",
+  instagram: "https://www.instagram.com/saifurrehman_29/",
+  github: "https://github.com/saifurrehman29",
+  linkedin: "https://www.linkedin.com/in/saifurrehman29/",
+  // discord: "https://www.hackerrank.com/Bglance68",
+  // blog: "https://brendanglancy.github.io/",
 };
 
 export const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FRONT END DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   data: [
     {
       title: "Full Stack Development",
@@ -43,13 +43,25 @@ export const skillsSection = {
       ],
       softwareSkills: [
         {
+          skillName: "reactjs",
+          fontAwesomeClassname: "vscode-icons:file-type-reactjs",
+        },
+        {
+          skillName: "NextJS",
+          fontAwesomeClassname: "logos:nextjs-icon",
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "logos:mongodb-icon",
+        },
+        {
           skillName: "python",
           fontAwesomeClassname: "logos:python",
         },
-        {
-          skillName: "Java",
-          fontAwesomeClassname: "logos:java",
-        },
+        // {
+        //   skillName: "Java",
+        //   fontAwesomeClassname: "logos:java",
+        // },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "logos:javascript",
@@ -58,22 +70,18 @@ export const skillsSection = {
           skillName: "cpp",
           fontAwesomeClassname: "logos:c-plusplus",
         },
-        {
-          skillName: "reactjs",
-          fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-        },
-        {
-          skillName: "vuejs",
-          fontAwesomeClassname: "logos:vue",
-        },
+        // {
+        //   skillName: "vuejs",
+        //   fontAwesomeClassname: "logos:vue",
+        // },
         {
           skillName: "nodejs",
           fontAwesomeClassname: "logos:nodejs-icon",
         },
-        {
-          skillName: "astro",
-          fontAwesomeClassname: "vscode-icons:file-type-astro",
-        },
+        // {
+        //   skillName: "astro",
+        //   fontAwesomeClassname: "vscode-icons:file-type-astro",
+        // },
         {
           skillName: "npm",
           fontAwesomeClassname: "logos:npm-icon",
@@ -94,26 +102,18 @@ export const skillsSection = {
           skillName: "MySQL-icon",
           fontAwesomeClassname: "logos:mysql-icon",
         },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "logos:vercel-icon",
-        },
-        {
-          skillName: "NextJS",
-          fontAwesomeClassname: "logos:nextjs-icon",
-        },
-        {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "logos:mongodb-icon",
-        },
-        {
-          skillName: "Django",
-          fontAwesomeClassname: "logos:django-icon",
-        },
-        {
-          skillName: "spring-boot",
-          fontAwesomeClassname: "logos:spring-icon",
-        },
+        // {
+        //   skillName: "Vercel",
+        //   fontAwesomeClassname: "logos:vercel-icon",
+        // },
+        // {
+        //   skillName: "Django",
+        //   fontAwesomeClassname: "logos:django-icon",
+        // },
+        // {
+        //   skillName: "spring-boot",
+        //   fontAwesomeClassname: "logos:spring-icon",
+        // },
       ],
     },
   ],
@@ -231,24 +231,17 @@ export const feedbacks = [
 ];
 
 export const seoData = {
-  title: "Brendan's Portfolio",
+  title: "Saif's Portfolio",
   description: "Full Stack Developer showcasing my work and experience.",
   image: "https://avatars.githubusercontent.com/u/61941978?v=4",
   url: "https://brendanglancy.software/",
   keywords: [
-    "Brendan Glancy",
+    "Saif Ur Rehman",
     "Portfolio",
     "Full Stack Developer",
     "Open to work",
-    "Ronis Hair Forum",
+    "Front End Developer",
     "Developer",
     "web developer",
-    "Empyrial",
-    "OVS Grinding",
-    "OVS Knife Co.",
-    "Knifely",
-    "Canton Regional Chamber of Commerce",
-    "Akron",
-    "Ohio",
   ],
 };
